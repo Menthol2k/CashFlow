@@ -16,6 +16,6 @@ class Encashment extends Model
 
     public function client()
     {
-        return $this->belongsTo(CLient::class);
+        return $this->belongsTo(Client::class);
     }
 }
